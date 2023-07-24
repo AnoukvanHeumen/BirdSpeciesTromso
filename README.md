@@ -12,6 +12,8 @@ Then you open anaconda prompt and change the working directory using cd "INSERT 
 Create a conda environment by using the command “conda create -n yolov7-birds python=3.9”
 And then "conda activate yolov7-birds"
 
+Now you first have to make sure you have everything correctly installed by using the command line "pip install -r requirements.txt"
+
 Now you can run the following code to get the analysis started:
 python detect.py --weights yolov7_bird_update.pt --conf 0.5 --img-size 640 --source data/ --no-trace --save-txt --save-conf
 
